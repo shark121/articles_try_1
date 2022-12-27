@@ -1,0 +1,137 @@
+@font-face {
+    font-family:"ubuntu" ;
+    src: url("fonts/Ubuntu-Medium.ttf");
+}
+
+a{
+    text-decoration: none;
+}
+
+.canvas{
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    font-family: "ubuntu";
+    background: url("images/pexels-ylanite-koppens-776656.jpg");
+    background-size: cover;
+    width:100vw;
+}   
+
+
+ul{
+    list-style: none;
+}
+nav{
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+
+}
+
+
+
+button {
+  align-items: center;
+  background-color: #fd0185;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+button:hover,
+button:focus { 
+  background-color: #01b4ee;
+  color: #ffffff;
+}
+
+button:active {
+  background: #01b4ee;
+  color: rgb(255, 255, 255, .7);
+}
+
+button:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+.logo{
+    height: 100%;
+    width: 40%;
+    background-size: cover;
+}
+.others{
+    height: 100%;
+    width:60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+}
+
+.box1{
+    height: 40vh;
+    width: 100vw;
+    background-color: rgba(255,255,255,.2);
+    border-radius: 3rem;
+    align-self: center;
+}
+
+.box2{
+    display: flex;
+    height: 70vh;
+    width: 100vw;
+    border-radius: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons{
+    width:auto;
+    height: auto;
+}
+
+.transition-fade{
+    opacity: 1;
+    transition: 500ms;
+}
+
+html.is-animating .transition-fade{
+ opacity: 0;
+}
+
+.fade {
+    animation : fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0%{opacity: 0;
+        transform: translateY(20%);
+    }
+    100%{opacity: 1; transform: translateYs(0%);}
+}
+
