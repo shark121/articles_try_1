@@ -95,7 +95,7 @@ button:disabled {
 
 .box1{
     height: 40vh;
-    width: 100vw;
+    width: 80vw;
     background-color: rgba(255,255,255,.2);
     border-radius: 3rem;
     align-self: center;
