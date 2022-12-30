@@ -19,7 +19,7 @@ body{
     background: url("images/pexels-ylanite-koppens-776656.jpg");
     background-size: cover;
     width:100vw;
-    overflowX: hidden;
+    overflow-x: hidden;
 }   
 
 
